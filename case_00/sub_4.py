@@ -19,9 +19,9 @@ if ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0):
 
 for i in range(1, len(arr)):
     if month > i:
-        num += arr[i]
+        num = arr[i]+num
     else:
-        num += day
+        num = day+num
         break
 
 print('天数：', num)
