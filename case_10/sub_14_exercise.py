@@ -3,3 +3,6 @@
 '''
 
 num = int(input('input num: '))
+
+
+

@@ -7,7 +7,7 @@ import time
 global user, name
 
 user = {
-    'woider': '3243',
+    'aaa': '123',
 }
 
 
